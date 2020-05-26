@@ -1,0 +1,93 @@
+html body {
+    margin: 0px;
+}
+
+.main {
+    background-color: #212121;
+}
+.txt {
+    color: white;
+}
+.bubble {
+    margin: auto;
+    height : auto;
+    width: 95%;
+    background-color: #404242;
+}
+.title {
+    color: white;
+    font-size: 300%;
+}
+.img {
+    border-radius: 50%;
+    max-height: 200px;
+    max-width: 200px;
+}
+.profiletxt {
+    font-size: 3em;
+    color: white;
+}
+.profiletxt2 {
+    font-size: 1.5em;
+    color: white;
+}
+.bubbleprofile {
+    margin: auto;
+    width: 98%;
+    background-color: #292929;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 1px 1px 20px  black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.bubbletxt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.bubbleimg{
+    padding-left: 5em;
+    padding-right: 5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonarea {
+    background-color: #292929;
+    height: 50px;
+    width: auto;
+    box-shadow: 1px 1px 20px black;
+}
+.spacer {
+    height: 20px;
+}
+.imgBackground {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .img{
+        max-height: 50px;
+        max-width: 50px;
+    }
+    .profiletxt{
+        font-size: 1em;
+    }
+    .profiletxt2{
+        font-size: .5em;
+    }
+    .bubbleimg{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}

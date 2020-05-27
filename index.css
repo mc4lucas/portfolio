@@ -26,10 +26,12 @@ html body {
 .profiletxt {
     font-size: 3em;
     color: white;
+    font-family: "Roboto", arial;
 }
 .profiletxt2 {
     font-size: 1.5em;
     color: white;
+    font-family: "Roboto", arial;
 }
 .bubbleprofile {
     margin: auto;
@@ -63,6 +65,10 @@ html body {
     height: 50px;
     width: auto;
     box-shadow: 1px 1px 20px black;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .spacer {
     height: 20px;
@@ -72,8 +78,139 @@ html body {
     width: 100%;
     object-fit: cover;
 }
+.welcometxt{
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    font-family: "Roboto", arial;
+}
+.welcometxt2{
+    color: white;
+    font-size: 1.5em;
+    font-family: "Roboto", arial;
+}
+.centered {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Pictures/Deskcropped.jpg);
+}
+.button {
+    color:  white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Roboto", arial;
+    background: none;
+    border: none;
+    padding-left: 3em;
+    padding-right: 3em;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
 
 
+.aboutme {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Pictures/Deskcropped.jpg);
+}
+.gifstyle {
+    box-shadow: 1px 1px 20px whitesmoke;
+    margin: 15px;
+    width: 32em;
+    height: auto;
+    border-radius: 10px;
+}
+.bubbleproject {
+background-color: #292929;
+margin: 15px;
+box-shadow: 1px 1px 20px black;
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-grow: 1;
+
+transition-duration: 0.4s;
+border-radius: 25px;
+}
+.bubbleproject:hover {
+    transform: scale(1.1);
+}
+.projectscope {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.projects {
+    color: white;
+    font-size: 3em;
+    font-family: "Roboto", arial;
+    font-weight: bold;
+    text-decoration: none;  
+    padding: none;  
+    margin: auto;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+.Bottom {
+    background-color: #292929;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 1px 1px 20px black;
+    color: white;
+    font-family: "Roboto", arial;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    color: white;
+    font-family: "Roboto", arial;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-left: .5em;
+}
+.list {
+    color: white;
+    font-family: "Roboto", arial;
+    font-weight: bold;
+    font-size: 1em;
+    padding-left: 5em; 
+}
+.bubbleAM {
+    margin: auto;
+    width: 98%;
+    background-color: #292929;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 1px 1px 20px  black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
 
 @media screen and (max-width: 600px){
     .img{

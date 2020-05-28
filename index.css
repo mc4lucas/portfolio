@@ -23,6 +23,10 @@ html body {
     max-height: 200px;
     max-width: 200px;
 }
+.img2 {
+    max-height: 300px;
+    max-width: 300px;
+}
 .profiletxt {
     font-size: 3em;
     color: white;
@@ -67,7 +71,7 @@ html body {
     box-shadow: 1px 1px 20px black;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
 }
 .spacer {
@@ -105,8 +109,6 @@ html body {
     font-family: "Roboto", arial;
     background: none;
     border: none;
-    padding-left: 3em;
-    padding-right: 3em;
     transition-duration: 0.4s;
 }
 
@@ -196,7 +198,7 @@ border-radius: 25px;
     padding-left: 5em; 
 }
 .bubbleAM {
-    /* margin: auto; */
+    margin: auto;
     width: 98%;
     background-color: #292929;
     box-shadow: 1px 1px 20px  black;
@@ -206,7 +208,47 @@ border-radius: 25px;
     justify-content: flex-start;
     align-items: flex-start;
 }
+.repl {
+    margin: auto;
+    padding-bottom: 20px;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.downloadbtn {
+    background-color: #3773d4;
+    box-shadow: 1px 1px 20px  black;
+    width: 98%;
+    margin: auto;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    color: white;
+    font-family: "Roboto", arial;
+    font-weight: bold;
+    font-size: 3em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    transition-duration: 0.4s;
+}
+.downloadbtn:hover{
+    transform: scale(.9);
+}
+.flexcenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 @media screen and (max-width: 600px){
     .img{
         max-height: 50px;

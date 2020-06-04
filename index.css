@@ -227,6 +227,22 @@ border-radius: 25px;
     align-items: center;
     justify-content: center;
 }
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.social img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.asocial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .text {
     color: white;
     font-family: "Roboto", arial;

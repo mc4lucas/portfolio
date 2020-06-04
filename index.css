@@ -38,12 +38,11 @@ html body {
     font-family: "Roboto", arial;
 }
 .bubbleprofile {
-    margin: auto;
     width: 98%;
+    margin: auto;
     background-color: #292929;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
     box-shadow: 1px 1px 20px  black;
@@ -111,6 +110,15 @@ html body {
     margin-left: 10em;
     margin-right: 10em;
 }
+.smalltxt2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+}
 .centered {
     height: 180px;
     display: flex;
@@ -126,6 +134,8 @@ html body {
     align-items: center;
     justify-content: center;
     background-image: url(Pictures/CS/Main.jpg);
+    background-position: 0% 70%;
+    background-size: cover;
 }
 .botcentered {
     height: 180px;
@@ -239,8 +249,8 @@ border-radius: 25px;
     
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
 }
 .repl {
     margin: auto;
@@ -332,8 +342,8 @@ border-radius: 25px;
 }
 .gallery {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
@@ -380,6 +390,12 @@ border-radius: 25px;
     .welcometxt{
         font-size: 2.5em;
     }
+    /* .welcometxt2 {
+        font-size: 1em;
+    }
+    .welcometxt3 {
+        font-size: 1em;
+    } */
     .smalltxt{
         margin-left: 3em;
         margin-right: 3em;
